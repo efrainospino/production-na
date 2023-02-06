@@ -46,7 +46,7 @@ app.use('/', routes());
 
 //puerto y host
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.PORT || 5001
+const port = process.env.PORT || 5001;
 //iniciar app
 app.listen(port, host, () =>{
     console.log('el servidor esta funcionando');
